@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const workoutPlans = {
         'full-body': `
@@ -200,7 +201,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <li>Seated Calf Raise: 4 sets of 12-15 reps</li>
 </ul>
 `,
-'phat':`<p>Frequency: 4 times per week</p>
+'phat':`
+<h3>PHAT (Power Hypertrophy Adaptive Training) Split</h3>
+<p>Frequency: 4 times per week</p>
 <h4>Day 1: Power Upper</h4>
 <ul>
     <li>Bench Press: 4 sets of 3-5 reps</li>
@@ -232,7 +235,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <li>Calf Raise: 4 sets of 12-15 reps</li>
     <li>Lunge: 3 sets of 10-12 reps</li>
 </ul>`,
-'arnold':`<p>Frequency: 6 times per week</p>
+'arnold':`
+<h3>Arnold Split</h3>
+<p>Frequency: 6 times per week</p>
 <h4>Day 1: Chest/Back</h4>
 <ul>
     <li>Bench Press: 4 sets of 6-8 reps</li>
@@ -285,7 +290,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <li>Standing Calf Raise: 4 sets of 12-15 reps</li>
     <li>Plank: 3 sets of 60 seconds</li>
 </ul>`,
-'push-pull':`<p>Frequency: 4 times per week</p>
+'push-pull':`
+<h3>Push Pull Split</h3>
+<p>Frequency: 4 times per week</p>
 <h4>Day 1: Push (Chest, Shoulders, Triceps)</h4>
 <ul>
     <li>Bench Press: 4 sets of 6-8 reps</li>
@@ -318,7 +325,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <li>Hammer Curl: 3 sets of 10-12 reps</li>
     <li>Shrugs: 3 sets of 12 reps</li>
 </ul>`,
-'upper-lower-cardio':`<p>Frequency: 5 times per week</p>
+'upper-lower-cardio':`
+<h3>Upper Body/Lower Body Split with Cardio</h3>
+<p>Frequency: 5 times per week</p>
 <h4>Day 1: Upper Body</h4>
 <ul>
     <li>Bench Press: 4 sets of 6-8 reps</li>
@@ -372,3 +381,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize with default selection
     dropdown.dispatchEvent(new Event('change'));
 });
+
